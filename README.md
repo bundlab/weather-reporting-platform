@@ -1,3 +1,7 @@
+![Docker](https://img.shields.io/badge/Docker-Enabled-blue)
+![FastAPI](https://img.shields.io/badge/FastAPI-Backend-green)
+![Version](https://img.shields.io/badge/Release-v1.0.0-brightgreen)
+
 # 🌦️ Weather Reporting System
 
 A **modern, full-stack Weather Reporting System** built with **FastAPI**, **PostgreSQL**, and a **beautiful frontend UI**.  
