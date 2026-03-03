@@ -1,5 +1,5 @@
 from app.database import Base, engine
-from models import Weather
+from app.models import Weather
 
 def init():
     Base.metadata.create_all(bind=engine)

@@ -1,6 +1,6 @@
 from sqlalchemy import Column, Integer, String, Float, DateTime
 from datetime import datetime
-from .database import Base
+from app.database import Base, engine
 
 class Weather(Base):
     __tablename__ = "weather"

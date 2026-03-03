@@ -1,8 +1,8 @@
 from fastapi import FastAPI, Depends
 from sqlalchemy.orm import Session
 from app.database import Base, engine, SessionLocal
-from .models import Weather
-from .weather import get_weather
+from app.models import Weather
+from app.weather import get_weather
 
 
 app = FastAPI(title="Weather Reporting System")

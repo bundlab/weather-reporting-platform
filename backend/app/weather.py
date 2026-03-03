@@ -1,5 +1,5 @@
 import requests
-from .config import OPENWEATHER_API_KEY
+from app.config import OPENWEATHER_API_KEY
 
 def get_weather(city: str):
     url = (
