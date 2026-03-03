@@ -1,6 +1,14 @@
+![CI](https://github.com/bundlab/weather-reporting-platform/actions/workflows/ci.yml/badge.svg)
 ![Docker](https://img.shields.io/badge/Docker-Enabled-blue)
 ![FastAPI](https://img.shields.io/badge/FastAPI-Backend-green)
-![Version](https://img.shields.io/badge/Release-v1.0.0-brightgreen)
+![PostgreSQL](https://img.shields.io/badge/PostgreSQL-Database-blue)
+![Nginx](https://img.shields.io/badge/Nginx-ReverseProxy-darkgreen)
+![Python](https://img.shields.io/badge/Python-3.11-yellow)
+![License](https://img.shields.io/badge/License-MIT-brightgreen)
+![Release](https://img.shields.io/github/v/release/bundlab/weather-reporting-platform)
+![Last Commit](https://img.shields.io/github/last-commit/bundlab/weather-reporting-platform)
+![Repo Size](https://img.shields.io/github/repo-size/bundlab/weather-reporting-platform)
+![Stars](https://img.shields.io/github/stars/bundlab/weather-reporting-platform?style=social)
 
 # 🌦️ Weather Reporting System
 
@@ -44,7 +52,8 @@ This application fetches **real-time weather data**, stores historical records, 
 ---
 
 ## 📁 Project Structure
-weather-reporting-flatform/
+---bash 
+weather-reporting-platform/
 │── backend/
 │ ├── app/
 │ │ ├── main.py
@@ -80,21 +89,6 @@ http://localhost:8000/docs
 
 ---
 
-## ⚙️ Installation & Setup
-
-### 1️⃣ Clone Repository
-```bash
-git clone https://github.com/bundlab/weather-reporting-system.git
-cd weather-reporting-system
-### 2️⃣ Add OpenWeather API Key
-
-Edit docker-compose.yml:
-
-OPENWEATHER_API_KEY: your_api_key_here
-
-Get your API key from:
-👉 https://openweathermap.org/api
-
 ## 🐳 Run with Docker (Recommended)
 docker-compose up --build
 
@@ -105,8 +99,25 @@ http://localhost:8000
 ✅ Frontend:
 
 Open frontend/index.html in your browser
+
 ## 🖥️ Run Without Docker (Optional)
 Backend
 cd backend
 pip install -r requirements.txt
 uvicorn app.main:app --reload
+
+## ⚙️ Installation & Setup
+
+1️⃣ Clone Repository
+```bash
+git clone https://github.com/bundlab/weather-reporting-system.git
+cd weather-reporting-system
+
+2️⃣ Add OpenWeather API Key
+
+Edit docker-compose.yml:
+
+OPENWEATHER_API_KEY: your_api_key_here
+
+Get your API key from:
+👉 https://openweathermap.org/api
